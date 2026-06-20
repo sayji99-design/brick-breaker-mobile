@@ -1,0 +1,3 @@
+GitHub Pages 공유 링크 후보: https://sayji99-design.github.io/brick-breaker-mobile/
+
+Settings > Pages에서 Source를 Deploy from a branch, Branch를 main, Folder를 /root로 설정하세요.
