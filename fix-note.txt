@@ -1,0 +1,1 @@
+현재 index.html은 최초 업로드 버전입니다. style.css와 script.js는 게임 원본 기준으로 업로드되었습니다.
