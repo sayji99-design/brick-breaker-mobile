@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>반짝 벽돌깨기</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="phone-shell">
+    <section class="game-card">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">MOBILE ARCADE</p>
+          <h1>반짝 벽돌깨기</h1>
+        </div>
+        <button id="soundBtn" class="icon-btn" aria-label="소리 켜기/끄기">🔊</button>
+      </header>
+
+      <div class="hud">
+        <div><span>점수</span><strong id="score">0</strong></div>
+        <div><span>목숨</span><strong id="lives">3</strong></div>
+        <div><span>단계</span><strong id="level">1</strong></div>
+      </div>
+
+      <div class="canvas-wrap">
+        <canvas id="gameCanvas" width="390" height="610" aria-label="벽돌깨기 게임 화면"></canvas>
+        <div id="overlay" class="overlay">
+          <div class="badge">✨ TOUCH & PLAY ✨</div>
+          <h2>터치해서 시작</h2>
+          <p>손가락으로 패들을 좌우로 움직여요.<br/>벽돌을 모두 깨면 다음 단계!</p>
+          <button id="startBtn" class="primary-btn">게임 시작</button>
+        </div>
+      </div>
+
+      <div class="controls">
+        <button id="leftBtn" class="control-btn">◀</button>
+        <button id="pauseBtn" class="control-btn wide">일시정지</button>
+        <button id="rightBtn" class="control-btn">▶</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
